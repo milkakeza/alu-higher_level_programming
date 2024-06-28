@@ -2,4 +2,4 @@
 
 for i in range(97, 123):
     alphb = chr(i)
-    print(alphb)
+    print(f"{i}:{alphb}", end=" ")

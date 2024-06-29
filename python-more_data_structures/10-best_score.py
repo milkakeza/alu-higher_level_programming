@@ -2,12 +2,13 @@
 
 
 def best_score(a_dictionary):
+
     if a_dictionary:
-        MaList = list(a_dictionary.keys())
-        best_score = 0
-        key = ""
-        for i in Malist:
-            if a_dictionary[i] > best_score:
-                best_score = a_dictionary[i]
-                key = i
-        return key
+        my_list = list(a_dictionary.keys())
+        score = 0
+        leader = ""
+        for i in my_list:
+            if a_dictionary[i] > score:
+                score = a_dictionary[i]
+                leader = i
+        return leader

@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 """Fetches url
 using the request module
 """
+
 import requests
 
 

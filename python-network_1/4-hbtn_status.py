@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+
 """
 This script fetches the URL https://alu-intranet.hbtn.io/status
 using the requests package and displays the response body.

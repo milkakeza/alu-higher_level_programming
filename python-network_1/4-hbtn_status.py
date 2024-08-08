@@ -1,17 +1,12 @@
 #!/usr/bin/python3
-
-"""Fetches url
-using the request module
 """
-
+Python script that fetches https://intranet.hbtn.io/status
+"""
 import requests
 
+if __name__ == '__main__':
 
-if _name_ == "_main_":
-    url = 'https://intranet.hbtn.io/status'
-    if url.startswith('https://'):
-        url = "https://alu-intranet.hbtn.io/status"
-    res = requests.get(url)
+    res = requests.get("https://intranet.hbtn.io/status")
     print("Body response:")
     print("\t- type: {}".format(type(res.text)))
     print("\t- content: {}".format(res.text))
